@@ -3,3 +3,8 @@ __pycache__/
 .DS_Store
 data/raw/
 data/processed/
+notebooks/data/df_sample.csv
+notebooks/data/df_sample.parquet
+data/df_sample.csv
+data/df_sample.parquet
+data/raw/
