@@ -1,10 +1,93 @@
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
 .DS_Store
-data/raw/
-data/processed/
-notebooks/data/df_sample.csv
-notebooks/data/df_sample.parquet
-data/df_sample.csv
-data/df_sample.parquet
-data/raw/
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Data files - NEVER COMMIT REAL DATA
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.feather
+*.arrow
+data/raw/*
+data/processed/*
+data/external/*
+data/interim/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!data/interim/.gitkeep
+!data/sample_data.csv
+
+# Models (except sample/demo models)
+*.joblib
+*.sav
+models/*.pkl
+models/*.h5
+!models/.gitkeep
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Jupyter
+.jupyter/
+*.ipynb_checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Reports (except example figures)
+reports/*.html
+reports/*.pdf
+!reports/figures/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*_BACKUP/
+*.bak
+*.backup
