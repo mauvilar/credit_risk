@@ -7,8 +7,8 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-# Ruta al archivo original (en backup)
-backup_path = Path.home() / 'Desktop/DA/Proyectos/credit_risk_DATA_BACKUP/data/processed/df_sample.csv'
+# Muestra procesada completa: vive en data/processed/, ignorada por git
+backup_path = Path(__file__).resolve().parent / 'data/processed/df_sample.csv'
 output_path = Path('data/sample_data.csv')
 
 print("📊 Generando datos de ejemplo anonimizados...")
